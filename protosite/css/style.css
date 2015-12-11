@@ -2,3 +2,24 @@ body {
     font-family: arial;
     background-color: lightgreen;
 }
+
+.image_button > img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.image_button > p {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.image_button {
+    border-radius: 90px;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
