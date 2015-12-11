@@ -1,6 +1,41 @@
+/*
+    Authors: Sven Schebitz, Nasrulla Nasrulla, Jason Ngan
+    Notes: CSS for the protosite
+    Date: December 10, 2015
+*/
+
 body {
     font-family: arial;
     background-color: lightgreen;
+}
+
+nav {
+    clear: both;
+    height: 40px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+nav > ul {
+    clear: both;
+    height: 40px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav > ul > li {
+    float: left;
+    width: 22.2%;
+    padding: 10px;
+    text-align: center;
+}
+
+nav > ul > li> a {
+    text-decoration: none;
+}
+
+main {
+    clear: both;
 }
 
 .image_navigation {
