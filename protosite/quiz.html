@@ -12,6 +12,12 @@
 	<meta charset="utf-8" />
 	
 	<style>
+		input[type="text"]{
+			width:300px;
+			font-family:Courier;
+			margin-bottom:5px;
+		}
+	
 		textarea{
 			font-family:Courier;
 			width:300px;
@@ -32,26 +38,39 @@
 		<div id="wrapper">
 			<main>
 				<form method="post" action="">
-					<p><strong>1:</strong> What does 'HTML' stand for ?</p>
-					<label for="answer1_1"><input type="radio" id="answer1_1" />How To Make Love</label><br />
-					<label for="answer1_2"><input type="radio" id="answer1_2" />HyperText Markup Language</label><br />
-					<label for="answer1_3"><input type="radio" id="answer1_3" />HyperTransfer Marking Language</label><br />
-					<label for="answer1_4"><input type="radio" id="answer1_4" />How To Make Love</label><br />
+					<p><strong>1:</strong> What does the acronym 'HTML' stand for ? (1 mark)</p>
+					<label for="answer1_1"><input type="radio" name="answer1" value="answer1_1" />How To Make Love</label>
+					<br />
+					<label for="answer1_2"><input type="radio" name="answer1" value="answer1_2" />HyperText Markup Language</label>
+					<br />
+					<label for="answer1_3"><input type="radio" name="answer1" value="answer1_3" />HyperTransfer Marking Language</label>
+					<br />
+					<label for="answer1_4"><input type="radio" name="answer1" value="answer1_4" />Hyper Text Marketing Language</label>
+					<br />
 					
-					<p><strong>2:</strong> What does 'HTML' stand for ?</p>
-					<label for="answer2_1"><input type="radio" id="answer2_1" />How To Make Love</label><br />
-					<label for="answer2_2"><input type="radio" id="answer2_2" />HyperText Markup Language</label><br />
-					<label for="answer2_3"><input type="radio" id="answer2_3" />HyperTransfer Marking Language</label><br />
-					<label for="answer2_4"><input type="radio" id="answer2_4" />How To Make Love</label><br />
+					<p><strong>2:</strong> What does the acronym 'XHTML' stand for ? (1 mark)</p>
+					<input type="text" name="answer2">
 					
-					<p><strong>3:</strong> What does 'HTML' stand for ?</p>
-					<label for="answer3_1"><input type="radio" id="answer3_1" />How To Make Love</label><br />
-					<label for="answer3_2"><input type="radio" id="answer3_2" />HyperText Markup Language</label><br />
-					<label for="answer3_3"><input type="radio" id="answer3_3" />HyperTransfer Marking Language</label><br />
-					<label for="answer3_4"><input type="radio" id="answer3_4" />How To Make Love</label><br />
+					<p><strong>3:</strong> XHTML is meant to be "well formed", which carries a series of strict rules for how to write code. Briefly state three of these rules: (3 marks)</p>
+					<label for="answer3_1">a) <input type="text" name="answer3_1"><br />
+					<label for="answer3_2">b) <input type="text" name="answer3_2"><br />
+					<label for="answer3_3">c) <input type="text" name="answer3_3"><br />
 					
-					<p><strong>4:</strong> Give an example for a relative path!</p>
-					<textarea name="answer4"></textarea>
+					<p><strong>4:</strong> XHTML 1.0 has three approved DOCTYPEs. One is called Frameset. Name one of the other two. (1 mark)</p>
+					<input type="text" name="answer4">
+					
+					<p><strong>5:</strong> Write out the complete HTML5 DOCTYPE. (1 mark)</p>
+					<input type="text" name="answer5">
+					
+					<p><strong>6:</strong> Which of the various Markup Languages(1 mark)</p>
+					<input type="text" name="answer6">
+					
+					<p><strong>7:</strong> HTML5 will include rules for how browsers handle errors in the code. (1 mark)</p>
+					<label for="answer7_1"><input type="radio" name="answer7" value="answer7_1" />true</label><br />
+					<label for="answer7_2"><input type="radio" name="answer7" value="answer7_2" />false</label><br />
+					
+					<p><strong>8:</strong> Give an example for a relative path. (1 mark)</p>
+					<input type="text" name="answer8">
 					
 					<br />
 					<input type="submit" value="submit quiz" />
