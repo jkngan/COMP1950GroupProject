@@ -15,6 +15,7 @@ body {
     width:1024px;
 	background-color:lightblue;
 	margin:0 auto;
+	overflow: hidden;
 
 }
 
@@ -132,5 +133,16 @@ footer h3{
 text-align:center;
 border-bottom:1px solid lightgray;
 padding-bottom: 10px;
+
+}
+
+aside{
+    width: 33.7%;
+    background-color: #f0f0f0;
+    float: left;
+    padding: 10px;
+    margin: 30px 0 0 44px;
+    position: relative;
+    box-shadow: 0px 0px 2px #fff;
 
 }
