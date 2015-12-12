@@ -66,14 +66,14 @@ nav > ul > li> a {
 main {
     clear: both;
 }
-section {
+ main section {
 	margin: 10px auto;
 	width: 800px;
 	border: 1px dashed #000000;
 	padding: 20px;
 }
 
-section > h2 {
+ main section > h2 {
 	padding: 0px;
 	margin: 0px;
 }
@@ -111,6 +111,22 @@ section > h2 {
 
 /*===================footer=================*/
 footer{
-   height:200px;
     background-color: #ccc;
+	overflow:hidden;
+}
+
+footer section{
+   width:341px;
+   float:left;
+   background-color:red;
+}
+#footer_wrapper{
+   width:1024px;
+   margin:0 auto;
+}
+footer h3{
+text-align:center;
+border-bottom:1px solid lightgray;
+padding-bottom: 10px;
+
 }
