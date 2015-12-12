@@ -9,6 +9,19 @@ body {
     background-color: #ffffff;
 }
 
+#wrapper{
+    width:1024px;
+	background-color:lightblue;
+	margin:0 auto;
+
+}
+
+header{
+   height:200px;
+background-color:yellow;  
+   
+}
+
 nav {
     clear: both;
     height: 40px;
@@ -25,7 +38,7 @@ nav > ul {
 
 nav > ul > li {
     float: left;
-    width: 22.2%;
+ 
     padding: 10px;
     text-align: center;
 }
@@ -75,4 +88,9 @@ main {
     height: 170px;
     background-color: #003e6b;
     margin: 0 10px;
+}
+
+footer{
+   height:200px;
+    background-color: #ccc;
 }
