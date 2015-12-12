@@ -90,7 +90,19 @@ main {
     margin: 0 10px;
 }
 
+
 footer{
    height:200px;
     background-color: #ccc;
+}
+section {
+	margin: 10px auto;
+	width: 800px;
+	border: 1px dashed #000000;
+	padding: 20px;
+}
+
+section > h2 {
+	padding: 0px;
+	margin: 0px;
 }
