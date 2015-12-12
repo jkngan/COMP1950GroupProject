@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	alert("javascript working");
 	$(".image_button").click(function() {
 		var paragraphs = this.getElementsByTagName("P");
 		if (paragraphs[0].textContent == "Lessons") {
