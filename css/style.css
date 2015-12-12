@@ -23,7 +23,7 @@ section {
 	border-bottom:1px solid #ffffff;
 }
 
-section: last-child{
+section: nth-last-child(1){
 	border-width:0px;
 }
 
@@ -31,6 +31,14 @@ footer{
 	margin-top:30px;
 	border-top:2px solid #ffffff;
 }
+
+::selection {
+    background: #b5b5b5;
+}
+::-moz-selection {
+    background: #b5b5b5;
+}
+
 #wrapper {
 	width: 900px;
 	margin: 0 auto;
@@ -40,12 +48,30 @@ footer{
 #navigation{
 	padding-bottom:20px;
 	border-bottom:2px solid #ffffff;
-	font-size:20px;
+	font-size:22px;
+	transition
 }
 
 #navigation a{
-	color:#0092D7;
+	color:#ffffff;
+	width:150px;
 	text-decoration:none;
+	background-color:#0092D7;
+	display:inline-block;
+	border-radius:5px;
+	margin-right:20px;
+	border:1px solid #ffffff;
+	opacity:0.7;
+	-webkit-transition:color 0.6 ease-in-out;
+	-moz-transition:color 0.6 ease-in-out;
+	transition:color 0.6 ease-in-out;
+}
+
+#navigation a:hover{
+	-webkit-transition:color 0.6 ease-in-out;
+	-moz-transition:color 0.6 ease-in-out;
+	transition:color 0.6 ease-in-out;
+	color:#92DCE0;
 }
 
 #member{
@@ -66,6 +92,11 @@ footer{
 	column-rule-color: #0092D7;
 } 
 
+#member p:first-child{
+	margin-top:0px;
+}
+
+
 #tv { 
 	position: relative;
 	width: 350px;
@@ -85,7 +116,7 @@ footer{
 }
 
 #tv:before {
-	padding-top:10px;
+	padding-top:8px;
 	content:url("../img/protosite.png");
 	position: absolute;
 	top: 10%;
