@@ -1,0 +1,78 @@
+/*
+    Authors: Sven Schebitz, Nasrulla Nasrulla, Jason Ngan
+    Notes: CSS for the protosite
+    Date: December 10, 2015
+*/
+
+body {
+    font-family: arial;
+    background-color: #ffffff;
+}
+
+nav {
+    clear: both;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #003e6b;
+}
+
+nav > ul {
+    clear: both;
+    height: 40px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav > ul > li {
+    float: left;
+    width: 22.2%;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav_border {
+    width: 1px;
+    padding: 1px;
+    height: 38px;
+    border-left: 2px solid #000000;
+}
+
+nav > ul > li> a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    clear: both;
+}
+
+.image_navigation {
+    clear: both;
+    height: 170px;
+    width: 583px;
+    margin: 0 auto;
+}
+
+.image_button > img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.image_button > p {
+    margin-top: 0px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.image_button {
+    float: left;
+    border-radius: 90px;
+    border: 2px solid #000000;
+    width: 170px;
+    height: 170px;
+    background-color: #003e6b;
+    margin: 0 10px;
+}
