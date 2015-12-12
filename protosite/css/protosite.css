@@ -71,14 +71,25 @@ nav > ul > li> a {
 main {
     clear: both;
 }
- main section {
+
+main section {
 	margin: 10px auto;
 	width: 800px;
 	border: 1px dashed #000000;
 	padding: 20px;
 }
 
- main section > h2 {
+main section > h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+article {
+	background-color: green;
+	padding: 15px;
+}
+
+article > h3 {
 	padding: 0px;
 	margin: 0px;
 }
