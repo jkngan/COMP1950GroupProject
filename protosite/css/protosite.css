@@ -92,6 +92,7 @@ article {
 article > h3 {
 	padding: 0px;
 	margin: 0px;
+	background-color: blue;
 }
 
 .image_navigation {
