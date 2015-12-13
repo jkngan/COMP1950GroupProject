@@ -147,6 +147,11 @@ article > p {
 	padding: 10px 10px;
 }
 
+.assignment_unavailable h3,
+.assignment_unavailable p {
+    color: lightgray;
+}
+
 .image_navigation {
     clear: both;
     height: 170px;
