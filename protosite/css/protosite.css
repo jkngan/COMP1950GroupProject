@@ -33,6 +33,7 @@ body {
 }
 
 .index_section {
+	margin-top: 20px;
 	width: auto;
 }
 
@@ -135,7 +136,7 @@ article > p {
     clear: both;
     height: 170px;
     width: 583px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 .image_button > img {
