@@ -97,6 +97,9 @@ nav > ul > li > a {
 	color:#ffffff;
     line-height: 40px;
 }
+nav > ul > li> a:hover {
+    background-color: #ffa;
+}
 
 /*===================main=================*/
 
