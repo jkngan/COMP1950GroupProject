@@ -146,6 +146,7 @@ article > p {
 footer{
     background-color: #ccc;
 	clear: both;
+	overflow:auto;
 }
 
 footer section{
