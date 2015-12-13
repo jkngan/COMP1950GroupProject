@@ -6,6 +6,19 @@ main p {
     color: #ffffff;
 }
 
+input[type="text"]{
+	width:300px;
+	font-family:Courier;
+	margin-bottom:5px;
+}
+
+textarea{
+	font-family:Courier;
+	width:300px;
+	height:100px;
+	resize: none;
+}
+
 .answer {
     margin-left: 50px;
     padding: 0px;
