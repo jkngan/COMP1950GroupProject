@@ -184,6 +184,19 @@ footer{
     background-color: #003e6b;
 	clear: both;
 	overflow:auto;
+    margin: 0 auto;
+    width: 1024px;
+}
+
+#footer {
+    margin: 10px auto;
+    width: 270px;
+}
+
+#footer a {
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0px 20px;
 }
 
 footer section{
