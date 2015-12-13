@@ -22,11 +22,18 @@ body {
 
 #index_wrapper {
 	margin:0 auto;
+	padding: 0px;
 	width: 1024px;
 }
 
+#index_wrapper h1 {
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+
 .index_section {
-	width: 1024px;
+	width: auto;
 }
 
 /*==================header=================*/
@@ -89,8 +96,6 @@ main {
 
  main section {
 	width: 600px;
-	border: 1px dashed #000000;
-	padding: 20px;
 	float:left;
 }
 
@@ -123,14 +128,14 @@ article > ol {
 
 article > p {
 	margin: 0px;
-	padding: 0px 10px;
+	padding: 10px 10px;
 }
 
 .image_navigation {
     clear: both;
     height: 170px;
     width: 583px;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .image_button > img {
