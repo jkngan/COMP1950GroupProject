@@ -77,6 +77,10 @@ nav > ul > li {
 	width:150px;
 }
 
+nav > ul > li:hover {
+    opacity: 0.7;
+}
+
 .nav_border {
     width: 1px;
     padding: 1px;
@@ -169,6 +173,10 @@ article > p {
     background-color: #003e6b;
     margin: 0 10px;
     cursor: pointer;
+}
+
+.image_button:hover {
+    opacity: 0.7;
 }
 
 /*===================footer=================*/
