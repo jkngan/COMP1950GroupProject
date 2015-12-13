@@ -40,6 +40,7 @@ body {
 /*==================header=================*/
 
 header{
+    margin: 0 auto;
     width: 1024px;
 height:200px;
 background:-webkit-linear-gradient(left, lightgray,#003e6b); 
@@ -194,7 +195,7 @@ padding-bottom: 10px;
 
 aside{
     margin-top: 68px;
-    width: 33.7%;
+    width: 23.7%;
     background-color: #ffffff;
     float: right;
     padding: 10px;
