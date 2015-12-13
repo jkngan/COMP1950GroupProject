@@ -13,10 +13,11 @@ body {
 
 #wrapper{
     width:1024px;
+	height: inherit;
 	background-color:lightblue;
 	margin:0 auto;
-	overflow: hidden;
-
+	clear: both;
+	overflow: auto;
 }
 
 /*==================header=================*/
@@ -144,7 +145,7 @@ article > p {
 /*===================footer=================*/
 footer{
     background-color: #ccc;
-	overflow:hidden;
+	clear: both;
 }
 
 footer section{
