@@ -62,15 +62,12 @@ footer{
 	margin-right:20px;
 	border:1px solid #ffffff;
 	opacity:0.7;
-	-webkit-transition:color 0.6 ease-in-out;
-	-moz-transition:color 0.6 ease-in-out;
-	transition:color 0.6 ease-in-out;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
 }
 
 #navigation a:hover{
-	-webkit-transition:color 0.6 ease-in-out;
-	-moz-transition:color 0.6 ease-in-out;
-	transition:color 0.6 ease-in-out;
 	color:#92DCE0;
 }
 
