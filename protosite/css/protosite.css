@@ -16,13 +16,8 @@ body {
 	height: inherit;
 	background-color:lightblue;
 	margin:0 auto;
-<<<<<<< HEAD
-	overflow:hidden;
-
-=======
 	clear: both;
 	overflow: auto;
->>>>>>> origin/master
 }
 
 /*==================header=================*/
