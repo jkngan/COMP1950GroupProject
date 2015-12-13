@@ -231,8 +231,9 @@ footer section{
 }
 footer h3{
 text-align:center;
-border-bottom:1px solid #fff;
+border-bottom:1px solid #ccc;
 padding-bottom: 10px;
+color:white;
 
 }
 
@@ -262,3 +263,38 @@ aside ul {
 aside li {
     list-style-type: disc
 }
+
+footer section ul{
+    margin: 30px 0 0 44px;
+   
+}
+
+footer section ul li{
+    margin: 10px 0 0 10px;
+   
+}
+
+footer section ul li a{
+    text-decoration:none;
+	color:#ccc;
+   
+}
+footer section ul li a:before{
+    content: "\203A";
+    display: inline-block;
+    position: absolute;
+    left: 235px;
+    color: #99ccff;
+    -webkit-transition: all .40s ease;
+    -moz-transition: all .40s ease;
+    -ms-transition: all .40s ease;
+    -o-transition: all .40s ease;
+    transition: all .40s ease;
+	}
+	
+	footer section ul li a:hover:before{
+	 content: "\00bb";
+	 position: absolute;
+    left: 240px;
+	
+	}
