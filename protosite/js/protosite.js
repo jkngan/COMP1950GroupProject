@@ -9,4 +9,11 @@ $(document).ready(function() {
 			window.location = "quizzes.html";
 		}
 	});
+    
+    $("nav > ul > li").hover(function() {
+        var nav = this.getElementsByTagName("A")[0].textContent);
+        if (nav == "Lectures") {
+            $("#lectures_nav").show();
+        }
+    });
 });
