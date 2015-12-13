@@ -15,7 +15,7 @@ body {
     width:1024px;
 	background-color:lightblue;
 	margin:0 auto;
-	overflow: hidden;
+	overflow:hidden;
 
 }
 
@@ -69,11 +69,11 @@ nav > ul > li> a {
 /*===================main=================*/
 
 main {
-    clear: both;
+    
 }
 
  main section {
-	width: 60%;
+	width: 600px;
 	border: 1px dashed #000000;
 	padding: 20px;
 	float:left;
