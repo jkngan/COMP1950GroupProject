@@ -10,6 +10,9 @@
 	<title>Bcitcomp | Quiz</title>
 	<meta name="description" content="This is an example for a quizpage." />
 	<meta charset="utf-8" />
+    <link type="text/css" rel="stylesheet" href="css/quiz.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+    <script type="text/javascript" src="js/quiz.js" ></script>
 	
 	<style>
 		input[type="text"]{
@@ -39,43 +42,48 @@
 			<main>
 				<form method="post" action="">
 					<p><strong>1:</strong> What does the acronym 'HTML' stand for ? (1 mark)</p>
-					<label for="answer1_1"><input type="radio" name="answer1" value="answer1_1" />How To Make Love</label>
+					<label for="answer1_1" class="answer"><input type="radio" name="answer1" value="answer1_1" />How To Make Love</label>
 					<br />
-					<label for="answer1_2"><input type="radio" name="answer1" value="answer1_2" />HyperText Markup Language</label>
+					<label for="answer1_2" class="answer"><input type="radio" name="answer1" value="answer1_2" />HyperText Markup Language</label>
 					<br />
-					<label for="answer1_3"><input type="radio" name="answer1" value="answer1_3" />HyperTransfer Marking Language</label>
+					<label for="answer1_3" class="answer"><input type="radio" name="answer1" value="answer1_3" />HyperTransfer Marking Language</label>
 					<br />
-					<label for="answer1_4"><input type="radio" name="answer1" value="answer1_4" />Hyper Text Marketing Language</label>
+					<label for="answer1_4" class="answer"><input type="radio" name="answer1" value="answer1_4" />Hyper Text Marketing Language</label>
 					<br />
 					
 					<p><strong>2:</strong> What does the acronym 'XHTML' stand for ? (1 mark)</p>
-					<input type="text" name="answer2">
+					<input type="text" name="answer2" class="answer">
 					
 					<p><strong>3:</strong> XHTML is meant to be "well formed", which carries a series of strict rules for how to write code. Briefly state three of these rules: (3 marks)</p>
-					<label for="answer3_1">a) <input type="text" name="answer3_1"><br />
-					<label for="answer3_2">b) <input type="text" name="answer3_2"><br />
-					<label for="answer3_3">c) <input type="text" name="answer3_3"><br />
+					<label for="answer3_1" class="answer">a) <input type="text" name="answer3_1"><br />
+					<label for="answer3_2" class="answer">b) <input type="text" name="answer3_2"><br />
+					<label for="answer3_3" class="answer">c) <input type="text" name="answer3_3"><br />
 					
 					<p><strong>4:</strong> XHTML 1.0 has three approved DOCTYPEs. One is called Frameset. Name one of the other two. (1 mark)</p>
-					<input type="text" name="answer4">
+					<input type="text" name="answer4" class="answer">
 					
 					<p><strong>5:</strong> Write out the complete HTML5 DOCTYPE. (1 mark)</p>
-					<input type="text" name="answer5">
+					<input type="text" name="answer5" class="answer">
 					
 					<p><strong>6:</strong> Which of the various Markup Languages(1 mark)</p>
-					<input type="text" name="answer6">
+					<input type="text" name="answer6" class="answer">
 					
 					<p><strong>7:</strong> HTML5 will include rules for how browsers handle errors in the code. (1 mark)</p>
-					<label for="answer7_1"><input type="radio" name="answer7" value="answer7_1" />true</label><br />
-					<label for="answer7_2"><input type="radio" name="answer7" value="answer7_2" />false</label><br />
+					<input type="radio" name="answer7" value="answer7_1"  class="answer"/>true<br />
+					<input type="radio" name="answer7" value="answer7_2"  class="answer"/>false<br />
 					
 					<p><strong>8:</strong> Give an example for a relative path. (1 mark)</p>
-					<input type="text" name="answer8">
+					<input type="text" name="answer8" class="answer">
 					
 					<br />
-					<input type="submit" value="submit quiz" />
+                    <div id="end_of_quiz">
+                        <p>End of Quiz:</p>
+					    <input type="submit" value="submit quiz" id="submit_button" />
+                    </div>
 				</form>
 			</main>
+                        
+        
 		<!-- wrapper end -->
 		</div>
  

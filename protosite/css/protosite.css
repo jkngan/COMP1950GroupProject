@@ -152,6 +152,11 @@ article > p {
     color: lightgray;
 }
 
+.quiz_unavailable h3,
+.quiz_unavailable p {
+    color: lightgray;
+}
+
 .image_navigation {
     clear: both;
     height: 170px;

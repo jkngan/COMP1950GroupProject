@@ -1,0 +1,34 @@
+main p {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #003e6b;
+    color: #ffffff;
+}
+
+.answer {
+    margin-left: 50px;
+    padding: 0px;
+}
+
+#end_of_quiz {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin_bottom: 40px;
+    padding: 10px;
+    float: left;
+    border: 2px solid #003e6b;
+    clear: both;
+}
+
+#end_of_quiz p {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #003e6b;
+    float: left;
+}
+
+#submit_button {
+    margin-left: 50px;
+}
