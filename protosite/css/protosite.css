@@ -167,7 +167,7 @@ article > p {
 
 /*===================footer=================*/
 footer{
-    background-color: #ccc;
+    background-color: #003e6b;
 	clear: both;
 	overflow:auto;
 }
@@ -175,7 +175,6 @@ footer{
 footer section{
    width:341px;
    float:left;
-   background-color:red;
 }
 #footer_wrapper{
    width:1024px;
@@ -183,7 +182,7 @@ footer section{
 }
 footer h3{
 text-align:center;
-border-bottom:1px solid lightgray;
+border-bottom:1px solid #fff;
 padding-bottom: 10px;
 
 }
