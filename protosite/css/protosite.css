@@ -57,6 +57,16 @@ background:linear-gradient(left, lightgray,#003e6b);
 	float:left;
 }
 
+#heading{
+	margin-top:-30px;
+	font:45px Courier;
+	font-weight:bold;
+	position:relative;
+	color:white;
+	text-align:center;
+	line-height:1.4;
+}
+
 #login{
 	color:#ffffff;
 	float:right;
