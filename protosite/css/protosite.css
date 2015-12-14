@@ -152,7 +152,15 @@ main section > h2 {
 	margin: 0px;
 	margin-bottom: 20px;
 }
+section a{
+ text-decoration:none;
+ color:#003e6b;
+}
 
+section a:hover{
+ text-decoration:none;
+ color:#caa;
+}
 article {
 	background-color: #ffffff;
 	margin-bottom: 15px;
