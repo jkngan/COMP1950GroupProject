@@ -27,6 +27,19 @@ section: nth-last-child(1){
 	border-width:0px;
 }
 
+section > p {
+	text-align: left;
+	margin-bottom: 20px;
+} 
+
+section > ul {
+	text-align: left;
+}
+
+section > ul > li {
+	margin: 7px;
+}
+
 footer{
 	margin-top:30px;
 	border-top:2px solid #ffffff;
