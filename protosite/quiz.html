@@ -14,7 +14,9 @@
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
     <script type="text/javascript" src="js/quiz.js" ></script>
 	
-	</head>
+	</head> 
+	
+	
  
 	<body>
 		<!--
@@ -24,6 +26,20 @@
 		<a id="rationale"></a>
 		-->
 		<div id="wrapper">
+		 <header>
+			   <div id="logo">
+					<img src="images/logo_transparent.png" alt="Logo" />
+				</div>
+				
+		<div id="login">
+			<h3>BCITCOMP Login</h3>
+			<form method="post" action="">
+				<label for="username">Username:&emsp;</label><input type="text" name="username" /><br/>
+				<label for="password">Password:&emsp;</label><input type="password" name="password" /><br/>
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+	</header>
 			<main>
 				<form method="post" action="">
 					<p><strong>1:</strong> What does the acronym 'HTML' stand for ? (1 mark)</p>
@@ -70,6 +86,39 @@
                         
         
 		<!-- wrapper end -->
+		
+		<footer>
+		
+		  <div id="footer_wrapper">
+			  <section>
+			    <h3>content</h3>
+				     <ul>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/" target="_blank">Home</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/courseinfo/" target="_blank">About the course</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/resources/">Resources</a></li>
+                   
+                     </ul>
+			  </section>
+			  <section>
+			    <h3>lectures</h3>
+				     <ul>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/lectures/" target="_blank">Tools & Standards</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/lectures/two/" target="_blank">HTML5</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/lectures/three/">Css techniques</a></li>
+                       
+                     </ul>
+				     
+			  </section>
+			  <section>
+			    <h3>associated</h3>
+				      <ul>
+                        <li><a href="http://bcitcomp.ca/students/" target="_blank">Students on bcitcomp.ca</a></li>
+                        <li><a href="https://my.bcit.ca/cp/home/displaylogin" target="_blank">My.bcit</a></li>
+                        <li><a href="http://www.bcit.ca/">Bcit</a></li>
+                     </ul>
+			  </section>
+		  </div>
+        </footer>
 		</div>
                     
 	</body>
