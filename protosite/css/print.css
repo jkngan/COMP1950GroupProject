@@ -82,4 +82,12 @@
     .table_of_contents {
         display: none;
     }
+    
+    .question {
+        page-break-inside: avoid;
+    }
+    
+    #end_of_quiz {
+        display: none;
+    }
 }
