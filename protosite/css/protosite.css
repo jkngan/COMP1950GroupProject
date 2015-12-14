@@ -89,7 +89,7 @@ color:white;
 }
 
 #login input[type="text"], input[type="password"]:hover{
-	border:1px solid #grey;
+	border:1px solid grey;
 	
 }
 

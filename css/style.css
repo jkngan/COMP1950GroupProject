@@ -59,14 +59,13 @@ footer{
 }
 
 
-#navigation{
+nav{
 	padding-bottom:20px;
 	border-bottom:2px solid #ffffff;
 	font-size:22px;
-	transition
 }
 
-#navigation a{
+nav a{
 	color:#ffffff;
 	width:150px;
 	text-decoration:none;
@@ -81,7 +80,7 @@ footer{
 	transition:all 0.4s ease;
 }
 
-#navigation a:hover{
+nav a:hover{
 	color:#92DCE0;
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
