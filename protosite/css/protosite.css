@@ -394,3 +394,20 @@ footer section ul li a:before{
      left: 43px;
 	
 	}
+
+/* styles for printers */
+@media print { 
+header { display:none;	}
+
+nav{
+display:none;
+}
+
+footer{
+display:none;
+}
+img{
+display:none;
+}
+}
+
