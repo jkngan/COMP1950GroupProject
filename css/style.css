@@ -40,7 +40,7 @@ footer{
 }
 
 #wrapper {
-	width: 900px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -69,6 +69,9 @@ footer{
 
 #navigation a:hover{
 	color:#92DCE0;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
 }
 
 #member{
@@ -124,3 +127,20 @@ footer{
 	border-radius: 5% / 50%;
 }
 
+
+.content_links, .content_links:link{
+	color:#0092D7;
+	text-decoration:none;
+	font-weight:900;
+}
+
+
+.content_links:hover{
+	opacity:0.7;
+}
+
+#sitemap_timg{
+	width:100%;
+	height:auto;
+	opacity:1.5;
+}
