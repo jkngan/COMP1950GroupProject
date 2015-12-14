@@ -69,4 +69,8 @@
     .image_navigation {
         display: none;
     }
+    
+    .table_of_contents {
+        display: none;
+    }
 }
