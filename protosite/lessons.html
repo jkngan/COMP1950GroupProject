@@ -9,12 +9,14 @@
     <head>
         
         <title>Bcitcomp | Lessons</title>
-        <link rel="stylesheet" href="css/normalize.css" title="home_work_five"  type="text/css">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
         <meta name="description" content="Here are the lecture notes for COMP1950." />
 	    <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="css/protosite.css" />
+        <link rel="stylesheet" type="text/css" title="Default" href="css/protosite.css" />
+        <link rel="alternate stylesheet" title="Presentation View" href="css/presentation.css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
 		<script type="text/javascript" src="js/protosite.js" ></script>
+		<script type="text/javascript" src="js/styleswitcher.js"></script>
     </head>
     
     <body>
@@ -57,6 +59,10 @@
         
         
         <main>
+		<div id="styleswitcher">
+			<p><a href="#" onclick="setActiveStyleSheet('Default'); return false;">Default</a>
+			<a href="#" onclick="setActiveStyleSheet('Presentation View'); return false;">Presentation</a></p>
+		</div>
             <section>
 				<h2>Lessons</h2>
                 <article>

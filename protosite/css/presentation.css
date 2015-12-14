@@ -165,8 +165,6 @@ nav > ul > li> a:hover {
 	border:1px solid #000000;
 }
 
-
-
  main section {
 	width: 700px;
 	float:left;
@@ -408,6 +406,11 @@ footer section ul li a:before{
      left: 43px;
 	
 	}
+
+header, footer, aside{
+	display:none;
+}
+	
 
 /* styles for printers */
 @media print { 
