@@ -10,8 +10,10 @@
 	<title>Bcitcomp | Quiz</title>
 	<meta name="description" content="This is an example for a quizpage." />
 	<meta charset="utf-8" />
-    <link type="text/css" rel="stylesheet" href="css/quiz.css" />
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+    <link type="text/css" rel="stylesheet" href="css/quiz.css" media="screen" />
+    <link rel="stylesheet" href="css/print.css" media="print" />
+    <script type="text/javascript"
+                src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
     <script type="text/javascript" src="js/quiz.js" ></script>
 	
 	</head> 
@@ -19,12 +21,6 @@
 	
  
 	<body>
-		<!--
-		<a id="introduction"></a>
-		<a id="protosite"></a>
-		<a id="sitemap"></a>
-		<a id="rationale"></a>
-		-->
 		<div id="wrapper">
 		 <header>
 			   <div id="logo">
@@ -43,39 +39,55 @@
 	</header>
 			<main>
 				<form method="post" action="">
-					<p><strong>1:</strong> What does the acronym 'HTML' stand for ? (1 mark)</p>
-					<label for="answer1_1" class="answer"><input type="radio" name="answer1" value="answer1_1" />How To Make Love</label>
-					<br />
-					<label for="answer1_2" class="answer"><input type="radio" name="answer1" value="answer1_2" />HyperText Markup Language</label>
-					<br />
-					<label for="answer1_3" class="answer"><input type="radio" name="answer1" value="answer1_3" />HyperTransfer Marking Language</label>
-					<br />
-					<label for="answer1_4" class="answer"><input type="radio" name="answer1" value="answer1_4" />Hyper Text Marketing Language</label>
-					<br />
+                    <div class="question">
+                        <p><strong>1:</strong> What does the acronym 'HTML' stand for ? (1 mark)</p>
+                        <label for="answer1_1" class="answer"><input type="radio" name="answer1" value="answer1_1" />How To Make Love</label>
+                        <br />
+                        <label for="answer1_2" class="answer"><input type="radio" name="answer1" value="answer1_2" />HyperText Markup Language</label>
+                        <br />
+                        <label for="answer1_3" class="answer"><input type="radio" name="answer1" value="answer1_3" />HyperTransfer Marking Language</label>
+                        <br />
+                        <label for="answer1_4" class="answer"><input type="radio" name="answer1" value="answer1_4" />Hyper Text Marketing Language</label>
+                        <br />
+                    </div>
 					
-					<p><strong>2:</strong> What does the acronym 'XHTML' stand for ? (1 mark)</p>
-					<input type="text" name="answer2" class="answer">
+                    <div class="question">
+                        <p><strong>2:</strong> What does the acronym 'XHTML' stand for ? (1 mark)</p>
+                        <input type="text" name="answer2" class="answer">
+                    </div>
 					
-					<p><strong>3:</strong> XHTML is meant to be "well formed", which carries a series of strict rules for how to write code. Briefly state three of these rules: (3 marks)</p>
-					<label for="answer3_1" class="answer">a) <input type="text" name="answer3_1"><br />
-					<label for="answer3_2" class="answer">b) <input type="text" name="answer3_2"><br />
-					<label for="answer3_3" class="answer">c) <input type="text" name="answer3_3"><br />
+                    <div class="question">
+                        <p><strong>3:</strong> XHTML is meant to be "well formed", which carries a series of strict rules for how to write code. Briefly state three of these rules: (3 marks)</p>
+                        <label for="answer3_1" class="answer">a) <input type="text" name="answer3_1"><br />
+                        <label for="answer3_2" class="answer">b) <input type="text" name="answer3_2"><br />
+                        <label for="answer3_3" class="answer">c) <input type="text" name="answer3_3"><br />
+                    </div>
 					
-					<p><strong>4:</strong> XHTML 1.0 has three approved DOCTYPEs. One is called Frameset. Name one of the other two. (1 mark)</p>
-					<input type="text" name="answer4" class="answer">
+                    <div class="question">
+                        <p><strong>4:</strong> XHTML 1.0 has three approved DOCTYPEs. One is called Frameset. Name one of the other two. (1 mark)</p>
+                        <input type="text" name="answer4" class="answer">
+                    </div>
 					
-					<p><strong>5:</strong> Write out the complete HTML5 DOCTYPE. (1 mark)</p>
-					<input type="text" name="answer5" class="answer">
+                    <div class="question">
+                        <p><strong>5:</strong> Write out the complete HTML5 DOCTYPE. (1 mark)</p>
+                        <input type="text" name="answer5" class="answer">
+                    </div>
 					
-					<p><strong>6:</strong> Which of the various Markup Languages(1 mark)</p>
-					<input type="text" name="answer6" class="answer">
+                    <div class="question">
+					   <p><strong>6:</strong> Which of the various Markup Languages(1 mark)</p>
+					   <input type="text" name="answer6" class="answer">
+                    </div>
 					
-					<p><strong>7:</strong> HTML5 will include rules for how browsers handle errors in the code. (1 mark)</p>
-					<input type="radio" name="answer7" value="answer7_1"  class="answer"/>true<br />
-					<input type="radio" name="answer7" value="answer7_2"  class="answer"/>false<br />
+                    <div class="question">
+                        <p><strong>7:</strong> HTML5 will include rules for how browsers handle errors in the code. (1 mark)</p>
+                        <input type="radio" name="answer7" value="answer7_1"  class="answer"/>true<br />
+                        <input type="radio" name="answer7" value="answer7_2"  class="answer"/>false<br />
+                    </div>
 					
-					<p><strong>8:</strong> Give an example for a relative path. (1 mark)</p>
-					<input type="text" name="answer8" class="answer">
+                    <div class="question">
+                        <p><strong>8:</strong> Give an example for a relative path. (1 mark)</p>
+                        <input type="text" name="answer8" class="answer">
+                    </div>
 					
 					<br />
                     <div id="end_of_quiz">

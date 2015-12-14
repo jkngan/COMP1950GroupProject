@@ -16,6 +16,7 @@
         <link rel="alternate stylesheet" title="Presentation View" href="css/presentation.css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
 		<script type="text/javascript" src="js/protosite.js" ></script>
+		<script type="text/javascript" src="js/styleswitcher.js"></script>
     </head>
     
     <body>
@@ -53,6 +54,10 @@
         </nav>
 	  <div id="index_wrapper">
         <main>
+			<div id="styleswitcher">
+				<p><a href="#" onclick="setActiveStyleSheet('Default'); return false;">Default</a>
+				<a href="#" onclick="setActiveStyleSheet('Presentation View'); return false;">Presentation</a></p>
+			</div>
 			<section class="index_section">
 				<h1>Welcome to COMP1950's Course Website</h1>
 				<article>

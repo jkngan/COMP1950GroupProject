@@ -1,0 +1,97 @@
+/*
+    Authors: Sven Schebitz, Nasrulla Nasrulla, Jason Ngan
+    Notes: Print style
+    Date: December 13, 2015
+*/
+
+@media print { 
+    body, section, article, main, footer  {
+	/* floating is not advised for printers */
+	   float: none;
+	/* let the printer set margins */
+	   width: auto;
+	   margin: 0;
+	   padding: 0;
+	/* dont display background colors or images */
+	   background: none;
+	}
+    
+    header { 
+        display:none;	
+    }
+
+    nav{
+        display:none;
+    }
+
+    footer{
+        display:none;
+    }
+
+    img{
+        display:none;
+    }
+    
+    a:link, a:visited {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    a:link:after, 
+    a:visited:after{           
+        content: " (URL: " attr(href) ") ";
+        font-size: 90%;
+        text-decoration: none;
+        color: #000000;
+        word-wrap: break-word;
+    }
+    
+    .lectures a:link:after,
+    .lectures a:visited:after {
+        content: "";
+    }
+    
+    ul {
+        list-style-type: circle;
+    }
+
+    aside{
+        display:none;
+    }
+    
+    section {
+        page-break-after: always;
+    }
+    
+    article, h1, h2, h3, h4, h5, h6 { 
+        page-break-inside: avoid; 
+    }
+    
+    .assignment_unavailable p:nth-of-type(2) {
+        display: none;
+    }
+    
+    .quizzes p:nth-of-type(2) {
+        display: none;
+    }
+    
+    .index_section > article > p:nth-of-type(2) {
+        display: none;
+    }
+    
+    .image_navigation {
+        display: none;
+    }
+    
+    .table_of_contents {
+        display: none;
+    }
+    
+    .question {
+        page-break-inside: avoid;
+    }
+    
+    #end_of_quiz {
+        display: none;
+    }
+}
