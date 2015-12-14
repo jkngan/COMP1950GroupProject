@@ -61,4 +61,12 @@
     .assignment_unavailable p:nth-of-type(2) {
         display: none;
     }
+    
+    .index_section > article > p:nth-of-type(2) {
+        display: none;
+    }
+    
+    .image_navigation {
+        display: none;
+    }
 }
