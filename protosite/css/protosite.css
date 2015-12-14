@@ -280,6 +280,7 @@ aside h3 {
 aside ul {
     margin-left: 25px;
     padding-left: 0px;
+
 }
 
 aside li {
@@ -289,6 +290,7 @@ aside li {
 footer section ul{
     margin: 30px 0 0 44px;
 	position:relative;
+	margin-bottom:20px;
    
 }
 
