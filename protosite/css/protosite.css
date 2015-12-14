@@ -394,30 +394,3 @@ footer section ul li a:before{
      left: 43px;
 	
 	}
-
-/* styles for printers */
-@media print { 
-header { display:none;	}
-
-nav{
-display:none;
-}
-
-footer{
-display:none;
-}
-img{
-display:none;
-}
-
-a:link:after, 
-	a:visited:after{
-	   content: " (URL: " attr(href) ") ";
-	   font-size: 90%;
-	}
-	
-	aside{
-	display:none;
-	}
-}
-
