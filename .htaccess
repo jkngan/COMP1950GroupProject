@@ -7,7 +7,7 @@
 # 2 - AddHandler	assigns which file extensions will be processed for SSIs
 # 3 - Options		enables SSIs, and allows this .htaccess file to apply to all subfolders
 
-ErrorDocument 404 error.html 
+ErrorDocument 404 protosite/error.html 
 
 AddType text/html .shtml .html .htm
 AddHandler server-parsed .shtml .html .htm 
