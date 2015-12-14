@@ -23,7 +23,7 @@ section {
 	border-bottom:1px solid #ffffff;
 }
 
-section: nth-last-child(1){
+#rationale{
 	border-width:0px;
 }
 
@@ -131,7 +131,7 @@ footer{
 
 #tv:before {
 	padding-top:8px;
-	content:url("../img/protosite.png");
+	content:url("../img/home.png");
 	position: absolute;
 	top: 10%;
 	bottom: 10%;
