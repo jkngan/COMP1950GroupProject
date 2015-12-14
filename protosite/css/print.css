@@ -94,4 +94,8 @@
     #end_of_quiz {
         display: none;
     }
+    
+    #styleswitcher {
+        display: none;
+    }
 }
