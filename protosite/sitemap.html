@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <!-- 
+		Authors: Sven Schebitz, Nasrulla Nasrulla, Jason Ngan
+		Notes: Home page of COMP1950 Group Project's proto site.
+		Date: December 10, 2015
+	-->
+    <head>
+        
+        <title>Bcitcomp | Protosite</title>
+        <link rel="stylesheet" href="css/normalize.css" title="home_work_five"  type="text/css">
+        <meta name="description" content="This is our prototype recreation of the Bcitcomp instruction page." />
+	    <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/protosite.css" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+		<script type="text/javascript" src="js/protosite.js" ></script>
+    </head>
+    
+    <body>
+	    <header>
+         <div id="logo">
+			<img src="images/logo_transparent.png" alt="Logo" />
+		</div>
+		
+		<div id="login">
+			<h3>BCITCOMP Login</h3>
+			<form method="post" action="">
+				<label for="username">Username:&emsp;</label><input type="text" name="username" /><br/>
+				<label for="password">Password:&emsp;</label><input type="password" name="password" /><br/>
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+		
+		<div id="heading"></div>
+        </header>
+		
+		<nav>
+            <ul>
+				<li class="nav_border"></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="nav_border"></li>
+                <li><a href="lessons.html">Lectures</a></li>
+                <li class="nav_border"></li>
+                <li><a href="assignments.html">Assignments</a></li>
+                <li class="nav_border"></li>
+                <li><a href="quizzes.html">Quizzes</a></li>
+				<li class="nav_border"></li>
+                <li><a href="about.html">About</a></li>
+				<li class="nav_border"></li>
+			</ul>
+        </nav>
+	  <div id="index_wrapper">
+        <main>
+			<section class="index_section">
+				<article>
+					<h3>Sitemap</h3>
+						COMP1950 redesigned website
+							<ul>
+								<li><a href="protosite.html" class="content_links">HOME</a></li>
+								<li><a href="lessons" class="content_links">Lectures</a>
+									<ul>
+										<li><a href="lesson1.html" class="content_links">Lecture 1</a></li>
+										<li><a href="lesson1.html" class="content_links">Lecture 2</a></li>
+										<li><a href="lesson1.html" class="content_links">Lecture 3</a></li>
+										<li><a href="lesson1.html" class="content_links">Lecture 4</a></li>
+										<li><a href="lesson1.html" class="content_links">Lecture ..</a></li>
+									</ul>
+								</li>
+								<li><a href="assignments.html" class="content_links">Assignments</a></li>
+									<ul>
+										<li><a href="assignment1.html" class="content_links">Assignment 1</a></li>
+										<li><a href="assignment1.html" class="content_links">Assignment 2</a></li>
+										<li><a href="assignment1.html" class="content_links">Assignment 3</a></li>
+										<li><a href="assignment1.html" class="content_links">Assignment 4</a></li>
+										<li><a href="assignment1.html" class="content_links">Assignment ..</a></li>
+									</ul>
+								<li><a href="quizzes.html" class="content_links">Quizzes</a></li>
+									<ul>
+										<li><a href="quiz.html" class="content_links">Quiz 1</a></li>
+										<li><a href="quiz.html" class="content_links">Quiz 2</a></li>
+										<li><a href="quiz.html" class="content_links">Quiz ..</a></li>
+									</ul>
+								<li><a href="about.html" class="content_links">About</a></li>
+							</ul>
+				</article>
+			</section>
+			
+        </main>
+		
+		</div><!--wrapper end-->
+
+     
+        <footer>
+		
+		  <div id="footer_wrapper">
+			  <section>
+			    <h3>content</h3>
+				     <ul>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/" target="_blank">Home</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/courseinfo/" target="_blank">About the course</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/resources/">Resources</a></li>
+                   
+                     </ul>
+			  </section>
+			  <section>
+			    <h3>lectures</h3>
+				     <ul>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/lectures/" target="_blank">Tools & Standards</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/lectures/two/" target="_blank">HTML5</a></li>
+                        <li><a href="http://www.bcitcomp.ca/comp1950/lectures/three/">Css techniques</a></li>
+                       
+                     </ul>
+				     
+			  </section>
+			  <section>
+			    <h3>associated</h3>
+				      <ul>
+                        <li><a href="http://bcitcomp.ca/students/" target="_blank">Students on bcitcomp.ca</a></li>
+                        <li><a href="https://my.bcit.ca/cp/home/displaylogin" target="_blank">My.bcit</a></li>
+                        <li><a href="http://www.bcit.ca/">Bcit</a></li>
+                     </ul>
+			  </section>
+		  </div>
+        </footer>
+
+		
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript">
+        $('nav').scrollToFixed();
+    </script>
+    </body>
+    
+</html>
