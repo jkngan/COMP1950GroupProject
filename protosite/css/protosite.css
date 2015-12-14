@@ -171,7 +171,15 @@ article > p {
 	margin: 0px;
 	padding: 10px 10px;
 }
+article li a{
+ text-decoration:none;
+ color:#003e6b;
+}
 
+article li a:hover{
+ text-decoration:none;
+ color:#caa;
+}
 .assignment_unavailable h3,
 .assignment_unavailable p {
     color: lightgray;
@@ -290,6 +298,10 @@ aside li a{
    text-decoration:none;
 	color:#003e6b;
 }
+aside li a:hover{
+ text-decoration:none;
+ color:#caa;
+}
 
 aside li a:before{
     content: "\203A";
@@ -310,6 +322,8 @@ aside li a:hover:before{
     left: -8px;
 }
 
+
+
 footer section ul{
     margin: 30px 0 0 44px;
 	position:relative;
@@ -326,6 +340,9 @@ footer section ul li a{
     text-decoration:none;
 	color:#ccc;
    
+}
+footer li a:hover{
+ color:#caa;
 }
 footer section ul li a:before{
     content: "\203A";
