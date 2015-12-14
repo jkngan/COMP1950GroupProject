@@ -409,5 +409,15 @@ display:none;
 img{
 display:none;
 }
+
+a:link:after, 
+	a:visited:after{
+	   content: " (URL: " attr(href) ") ";
+	   font-size: 90%;
+	}
+	
+	aside{
+	display:none;
+	}
 }
 
