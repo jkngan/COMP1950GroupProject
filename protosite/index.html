@@ -8,9 +8,9 @@
 	-->
     <head>
         
-        <title>Bcitcomp | Lessons</title>
+        <title>Bcitcomp | Protosite</title>
         <link rel="stylesheet" href="css/normalize.css" title="home_work_five"  type="text/css">
-        <meta name="description" content="Here are the lecture notes for COMP1950." />
+        <meta name="description" content="This is our prototype recreation of the Bcitcomp instruction page." />
 	    <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="css/protosite.css" />
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
@@ -19,7 +19,7 @@
     
     <body>
 	    <header>
-		<div id="logo">
+         <div id="logo">
 			<img src="images/logo_transparent.png" alt="Logo" />
 		</div>
 		
@@ -36,7 +36,7 @@
 		<nav>
             <ul>
 				<li class="nav_border"></li>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="protosite.html">Home</a></li>
                 <li class="nav_border"></li>
                 <li><a href="lessons.html">Lectures</a></li>
                 <li class="nav_border"></li>
@@ -48,49 +48,38 @@
 				<li class="nav_border"></li>
 			</ul>
         </nav>
-	  <div id="wrapper">
-    
-        
-        
-        
-        
+	  <div id="index_wrapper">
         <main>
-            <section>
-				<h2>Lessons</h2>
-                <article>
-					<h3>Lecture Notes</h3>
-					<ol>
-						<li><a href="lessons/lesson1.html"> tools & standards</a></li>
-						<li><a href="lessons/lesson1.html"> html5</a></li>
-                        <li><a href="lessons/lesson1.html" class="lecture_unavailable">css techniques</a> (Dec 14, 2015)</li>
-                        <li><a href="lessons/lesson1.html" class="lecture_unavailable">css layouts</a> (Dec 16, 2015)</li>
-					</ol>
-				</article>
-				
+			<section class="index_section">
+				<h1>Welcome to COMP1950's Course Website</h1>
 				<article>
-					<h3>Exercises</h3>
-					<ul>
-                        <li><a href="">html5 exercise 2</a></li>
-                    </ul>
+					<h3>About this website</h3>
+					<p>This website is intended for students of COMP1950 who are looking for lecture notes, assignments, online quizzes, or general information about the course and related BCIT services.</p>
+					<p>Please access the available lessons, assignments, and quizzes below.</p>
+					
+					<div class="image_navigation">
+						<div class="image_button">
+							<img src="images/lesson_icon.png" alt="" />
+							<p>Lessons</p>
+						</div>
+						<div class="image_button">
+							<img src="images/assignment_icon.png" alt="" />
+							<p>Assignments</p>
+						</div>
+						<div class="image_button">
+							<img src="images/quiz_icon.png" alt="" />
+							<p>Quizzes</p>
+						</div>
+					</div>
 				</article>
-				
-				<article>
-					<h3>Resources</h3>
-					<ul>
-                        <li><a href="http://html5test.com/" target="_blank">HTML5 Test</a></li>
-                    </ul>
-				</article>
-            </section>
+			</section>
+			
         </main>
-		<aside>
-			    <h3>associated</h3>
-				      <ul>
-                        <li><a href="http://bcitcomp.ca/students/" target="_blank">Students on bcitcomp.ca</a></li>
-                        <li><a href="https://my.bcit.ca/cp/home/displaylogin" target="_blank">My.bcit</a></li>
-                        <li><a href="http://www.bcit.ca/">Bcit</a></li>
-                     </ul>
-			  </aside>
-		  <footer>
+		
+		</div><!--wrapper end-->
+
+     
+        <footer>
 		
 		  <div id="footer_wrapper">
 			  <section>
@@ -122,9 +111,13 @@
 			  </section>
 		  </div>
         </footer>
-		</div><!--wrapper end-->
 
-      
+		
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript">
+        $('nav').scrollToFixed();
+    </script>
     </body>
     
 </html>
