@@ -117,20 +117,21 @@ nav > ul > li > a {
 	font-family:Arial;
 	color:#ffffff;
     line-height: 40px;
+	-webkit-transition: all .40s ease;
+    -moz-transition: all .40s ease;
+    -ms-transition: all .40s ease;
+    -o-transition: all .40s ease;
+    transition: all .40s ease;
 }
 nav > ul > li> a:hover {
-    background-color: #099aaf;
+   color: #099ddf;
 }
 
 /*===================main=================*/
 
-main {
-    width: 780px;
-    margin: 0 auto;
-}
 
  main section {
-	width: 600px;
+	width: 700px;
 	float:left;
     margin-top: 20px;
 }
@@ -265,27 +266,48 @@ aside{
     width: 23.7%;
     background-color: #ffffff;
     float: right;
-    padding: 10px;
     position: relative;
     box-shadow: 0px 0px 2px #fff;
-    border: 2px dashed #003e6b;
+    border: 1px dashed #003e6b;
+	border-top:0px;
 }
 
 aside h3 {
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 2px solid #003e6b;
-    border-width: 0px 0px 2px 0px;
+	background-color: #003e6b;
+	color:#ccc;
+	margin:0;
+	text-align:center;
 }
 
 aside ul {
     margin-left: 25px;
     padding-left: 0px;
-
+	list-style:none;
+	position:relative;
 }
 
-aside li {
-    list-style-type: disc
+aside li a{
+   text-decoration:none;
+	color:#003e6b;
+}
+
+aside li a:before{
+    content: "\203A";
+    display: inline-block;
+    position: absolute;
+    left: -10px;
+    color: #003e6b;
+    -webkit-transition: all .40s ease;
+    -moz-transition: all .40s ease;
+    -ms-transition: all .40s ease;
+    -o-transition: all .40s ease;
+    transition: all .40s ease;
+}
+aside li a:hover:before{
+    content: "\00bb";
+    display: inline-block;
+    position: absolute;
+    left: -8px;
 }
 
 footer section ul{
